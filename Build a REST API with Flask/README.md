@@ -21,6 +21,15 @@ A simple RESTful API built with Flask that performs **CRUD operations** (Create,
 
 http://127.0.0.1:5000/users
 
+
+## 📁 Repository Contents
+
+- Task_04.py  (Main Python script)
+- Terminal_api_running.png (Commandline of .py file)
+- postman.png (entering a user in a postman windows application)
+- users_data.png (the URL website created by using Api, Flask, postman)
+- README.md  (This readme file)
+
 ## How to Use Postman to Test the API
 - Step 1: Open Postman and start a new request
 - Step 2: Change the method from `GET` to `POST`, `GET`, `PUT`, or `DELETE` depending on the operation you want to perform.
