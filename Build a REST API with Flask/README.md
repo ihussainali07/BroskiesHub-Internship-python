@@ -10,7 +10,7 @@ A simple RESTful API built with Flask that performs **CRUD operations** (Create,
 - Update an existing user
 - Delete a user
 
-🧠 Tools & Technologies
+## 🧠 Tools & Technologies
 - Python 3.13.5
 - VS Code
 - Flask
