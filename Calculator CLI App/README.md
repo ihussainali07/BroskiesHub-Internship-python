@@ -16,7 +16,7 @@ The app runs in a loop and allows the user to perform multiple calculations unti
 ## 📁 Repository Contents
 BroskiesHub-python-Task-01/
 
-- calculator.py (Main Python script)
+- Task01.py (Main Python script)
 - 01_screenshot.png (app running in CLI)
 - 02_screenshot.png (app running in CLI)
 - README.md (This readme file)
