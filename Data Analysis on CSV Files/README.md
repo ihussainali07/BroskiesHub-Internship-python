@@ -28,4 +28,4 @@ It uses the power of `pandas` for data manipulation and `matplotlib` for plottin
 - README.md  (This readme file)
 
 ## 📈 Visualizations
-![plot](Charts.png)
+![plot](charts.png)
