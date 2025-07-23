@@ -14,7 +14,7 @@ It uses the power of `pandas` for data manipulation and `matplotlib` for plottin
 - Visualize data using bar and line charts
 - Export grouped summaries (optional)
   
-## 📈 Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Pandas 
 - Matplotlib
@@ -27,5 +27,5 @@ It uses the power of `pandas` for data manipulation and `matplotlib` for plottin
 - sales_data.csv (csv excel file to fetch data)
 - README.md  (This readme file)
 
-## Visualizations
+## 📈 Visualizations
 ![plot](Charts.png)
