@@ -41,3 +41,6 @@ It teaches core concepts including:
 - README.md  ( readme file about project details)
 
 ## Visualization
+![plot](01.png)
+
+![plot](02.png)
