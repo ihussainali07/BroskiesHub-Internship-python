@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-pic-top {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 20px;
+            right: 40px;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+            position: relative;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: #003366;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background-color: #0052cc;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        h3 {
+            color: #003366;
+        }
+
+        .bottom-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #003366;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            bottom: -10px;
+            right: -130px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="{{ url_for('static', filename='image/profile.jpg') }}" alt="Top Profile" class="profile-pic-top">
+    <h1>Hussain Ali</h1>
+    <p>Computer Engineering Student | Web Developer | Tech Enthusiast</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I’m a passionate Computer Engineering student at FAST NUCES, exploring web development, AI/ML, and embedded systems.
+            I love turning ideas into interactive applications and learning new technologies every day.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>National University of Computer and Emerging Sciences</strong><br>
+            Bachelor of Electrical Engineering (GPA: 3.89/4.0)<br>
+            Aug 2023 – Jun 2027, Faisalabad, Pakistan</p>
+        <p><strong>Relevant Coursework:</strong> DLD, Signals & Systems, Embedded Systems, AI/ML, Microprocessors, VLSI (HDL), Computer Networks, Control Systems, C/C++/Python/Matlab</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Tools:</strong> Matlab, Simulink, Proteus, AutoCAD, LTSpice, Multisim, Logisim, KiCAD, Xilinx Vivado HLS</li>
+            <li><strong>Programming:</strong> C, C++, Python</li>
+            <li><strong>Productivity:</strong> Microsoft 365 Certified</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <h3>Graphic Designer – IEEE Student Branch</h3>
+        <p>FAST National University | Jan 2025 – May 2025</p>
+        <ul>
+            <li>Designed posters, banners, and digital content for events.</li>
+            <li>Worked with event teams to meet deadlines.</li>
+            <li>Improved engagement on IEEE social platforms.</li>
+        </ul>
+
+        <h3>Technical Volunteer – IEEE & FAST Clubs</h3>
+        <p>Jan 2025 – May 2025</p>
+        <ul>
+            <li>Facilitated workshops on AI, Python, IoT, ML.</li>
+            <li>Guided juniors and set up lab equipment.</li>
+            <li>Edited and created YouTube content.</li>
+        </ul>
+
+        <h3>Teaching Assistant – Dept. of Computer Science</h3>
+        <p>Aug 2024 – May 2025</p>
+        <ul>
+            <li>Taught Calculus, Physics, Multivariable Calculus.</li>
+            <li>Conducted problem-solving and concept-based sessions.</li>
+        </ul>
+    </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <strong>Airline Reservation System (Programming Fundamentals)</strong>
+            <ul>
+                <li>Developed a menu-driven airline reservation system in C++ with features for booking, cancellation, and schedule viewing.</li>
+                <li>Used basic data structures and file handling to manage passenger and flight data.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Cell Phone Charger – 5V DC from 230V AC (Physics)</strong>
+            <ul>
+                <li>Designed a regulated power supply using transformer, bridge rectifier, capacitor filter, and voltage regulator.</li>
+                <li>Converted 230V AC to stable 5V DC for charging mobile devices.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Purewave Audio Amplifier with 20kHz High-Pass Filter (Electrical Network Analysis)</strong>
+            <ul>
+                <li>Built an op-amp based audio amplifier with integrated high-pass filter to eliminate low-frequency noise.</li>
+                <li>Focused on gain control, frequency response, and clean signal output.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Direct On-Line (DOL) Starter for 3-Phase Induction Motor (Electro Mechanical Systems)</strong>
+            <ul>
+                <li>Designed and simulated a DOL starter using contactors and overload relays.</li>
+                <li>Included motor protection against overcurrent and voltage drops during startup.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Snake Rebooter ft. Nokia 3310 (Digital Logic Design)</strong>
+            <ul>
+                <li>Recreated the classic Snake game using Arduino UNO, external push buttons, and LCD display.</li>
+                <li>Applied DLD concepts in microcontroller programming and digital interfacing.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Student Score Prediction (ML Regression)</strong>
+            <ul>
+                <li>Used Python and scikit-learn to train regression models predicting exam scores from study hours.</li>
+                <li>Learned tools like Jupyter Notebook, VS Code, Google Colab for model building and visualization.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Water Level Indicator</strong>
+            <ul>
+                <li>Designed a level-sensing circuit using resistors, transistors, and LEDs to indicate water tank levels.</li>
+                <li>Applied concepts from analog electronics and real-world sensor interfacing.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>REST API using Flask & Postman</strong>
+            <ul>
+                <li>Built a personal API with CRUD operations for managing user data.</li>
+                <li>Tested API using Postman and gained experience in web backend development.</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+
+    <section>
+        <h2>Achievements & Activities</h2>
+        <ul>
+            <li>4× Gold Medalist | Dean’s List Scholar</li>
+            <li>Top positions in Speed Wiring at UOL, FAST ISB, FAST CFD</li>
+            <li>RC Car Competitions at FAST, UOL Innovation Olympiad</li>
+            <li>Organized Daira, job fairs, and university events</li>
+            <li>Coursera Certs: Python, Arduino C, AI/ML</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form action="/contact" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+            <!-- Bottom image -->
+            <img src="{{ url_for('static', filename='image/profile2.jpg') }}" alt="Bottom Profile" class="bottom-image">
+        </form>
+    </section>
+
+</main>
+</body>
+</html>
