@@ -27,4 +27,4 @@ This project showcases your skills, projects, and contact information on a respo
 ---
 
 ## 📁 Project Structure
-![plot](file_structure.jpg)
+![plot](file_structure.png)
