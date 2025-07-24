@@ -33,4 +33,5 @@ This project showcases your skills, projects, and contact information on a respo
 ## 📸 Visualization
 ![plot](preview_01.png)
 ![plot](preview_02.png)
-![plot]()
+![plot](preview_03.png)
+![plot](preview_04.png)
