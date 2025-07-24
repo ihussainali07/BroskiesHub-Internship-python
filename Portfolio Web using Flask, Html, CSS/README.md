@@ -18,14 +18,11 @@ This project showcases your skills, projects, and contact information on a respo
 - **Flask**
 - **HTML5**
 - **CSS3**
+- **Jinja2** 
 - **VS Code** (for development)
 
 ## 📁 Project Structure
 ![plot](file_structure.png)
-
-## 🛠️ Technologies & Tools
-
-Flask (Python) | Html | CSS | Jinja2 | VS Code
 
 ## 📂 Add Your Own Content
 
@@ -36,4 +33,4 @@ Flask (Python) | Html | CSS | Jinja2 | VS Code
 ## 📸 Visualization
 ![plot](preview_01.png)
 ![plot](preview_02.png)
-![plot](preview_03.png)
+![plot]()
