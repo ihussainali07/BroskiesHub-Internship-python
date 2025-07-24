@@ -33,4 +33,6 @@ Flask (Python) | Html | CSS | Jinja2 | VS Code
 - Modify the text in templates/index.html (Name, Projects, Contact Info).
 - Change styles via static/style.css.
 
+## 📸 Visualization
+![plot]()
 
