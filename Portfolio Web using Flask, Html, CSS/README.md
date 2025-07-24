@@ -34,5 +34,6 @@ Flask (Python) | Html | CSS | Jinja2 | VS Code
 - Change styles via static/style.css.
 
 ## 📸 Visualization
-![plot]()
-
+![plot](preview_01.png)
+![plot](preview_02.png)
+![plot](preview_03.png)
