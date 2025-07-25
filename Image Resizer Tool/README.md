@@ -18,7 +18,8 @@ Script that resizes all images in a folder and saves them to a new location.
 - Automatically creates output folder if it doesn’t exist
 
 ## 📁 Folder Structure
-![Alt Text](path/to/image)
+![plot](file_structure.png)
 
 ## Visualization
+![plot](Commadline.png)
 ![plot](working.png)
