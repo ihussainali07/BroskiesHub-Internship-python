@@ -8,8 +8,9 @@ Resize and convert images in batch using Python and Pillow.
 ## 🛠️ Tools Used
 - Python
 - Pillow (PIL)
+- VS Code
 
-### 📦 Deliverables
+## 📦 Deliverables
 Script that resizes all images in a folder and saves them to a new location.
 
 ## 🚀 Features
@@ -20,6 +21,6 @@ Script that resizes all images in a folder and saves them to a new location.
 ## 📁 Folder Structure
 ![plot](file_structure.png)
 
-## Visualization
+## ✅ Visualization
 ![plot](Commadline.png)
 ![plot](working.png)
