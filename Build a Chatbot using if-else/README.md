@@ -16,6 +16,6 @@ This is a **simple rule-based chatbot** built using `if-elif-else` statements in
 ## 📂 Project Structure
 
 chatbot_project/
-
-├── chatbot.py # Main Python file with chatbot logic
-├── README.md # Project documentation
+- chatbot.py # Main Python file with chatbot logic
+- commandline.png #command line of .py file
+- README.md # Project documentation
